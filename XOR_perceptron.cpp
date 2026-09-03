@@ -33,7 +33,7 @@ int main() {
 
     cout << fixed << setprecision(4);
 
-    for (int epoch = 0; epoch < 100000; epoch++) {
+    for (int epoch = 0; epoch < 20000; epoch++) {
         double SSE = 0;
 
         double dw11 = 0, dw12 = 0;
